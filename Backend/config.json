@@ -1,0 +1,9 @@
+﻿{
+    "connectionString": "mongodb://localhost:27017/intigotest",
+    "secret": " type your secret phrase",
+    "weatherAPI": "8c621a01a92024f6a16975b0b28810b0",
+    "cityQuery":"api.openweathermap.org/data/2.5/weather?q=${city}&appid=${weatherAPI}",
+    "zipCodeQuery":"api.openweathermap.org/data/2.5/weather?q=${zipCode}&appid=${weatherAPI}",
+    "forecastQuery":"api.openweathermap.org/data/2.5/forecast/daily?q={city}&cnt={day bnr}&appid={weatherAPI}"
+}
+
